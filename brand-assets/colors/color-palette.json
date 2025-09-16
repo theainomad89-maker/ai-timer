@@ -1,0 +1,58 @@
+{
+  "brand": {
+    "primary": {
+      "name": "Pulse Green",
+      "hex": "#00C853",
+      "rgb": "rgb(0, 200, 83)",
+      "hsl": "hsl(142, 100%, 39%)",
+      "usage": "Primary brand color, main UI elements, primary buttons, accent elements"
+    },
+    "secondary": {
+      "name": "Work Green", 
+      "hex": "#29B36B",
+      "rgb": "rgb(41, 179, 107)",
+      "hsl": "hsl(142, 63%, 43%)",
+      "usage": "Work intervals, active states, positive actions"
+    }
+  },
+  "accent": {
+    "rest": {
+      "name": "Rest Red",
+      "hex": "#F44336",
+      "rgb": "rgb(244, 67, 54)",
+      "hsl": "hsl(4, 90%, 58%)",
+      "usage": "Rest intervals, pause states, error states"
+    },
+    "other": {
+      "name": "Other Blue",
+      "hex": "#2196F3",
+      "rgb": "rgb(33, 150, 243)",
+      "hsl": "hsl(207, 89%, 54%)",
+      "usage": "Other intervals, info states, secondary actions"
+    }
+  },
+  "neutral": {
+    "background": {
+      "primary": "#F6F7F8",
+      "surface": "#FFFFFF",
+      "border": "#ECECEC"
+    },
+    "text": {
+      "primary": "#0A0A0A",
+      "secondary": "#6E6E73",
+      "muted": "#6E6E73",
+      "light": "#FFFFFF"
+    },
+    "soft": {
+      "accent": "#E8F5E9",
+      "shadow": "#000000"
+    }
+  },
+  "status": {
+    "success": "#00C853",
+    "error": "#F44336",
+    "work": "#29B36B",
+    "rest": "#F44336",
+    "other": "#2196F3"
+  }
+}
