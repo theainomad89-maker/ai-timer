@@ -204,6 +204,9 @@ For issues and questions:
 ---
 
 **Note**: The mobile app requires a development build due to native OCR modules. Use `npx expo run:ios --device` or `npx expo run:android --device` for development, and EAS Build for production releases.
+<<<<<<< HEAD
+=======
 
 ---
 *Last updated: September 2025*
+>>>>>>> 971bd60ced00d510d446b036e7cfe655f64ab40c
