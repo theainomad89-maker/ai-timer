@@ -3,7 +3,7 @@ import Image from "next/image";
 type Props = { href: string; large?: boolean };
 
 export default function AppStoreButton({ href, large }: Props) {
-  const size = large ? "h-16 w-48" : "h-12 w-36";
+  const size = large ? "h-14 w-41" : "h-10 w-31";
   return (
     <a
       href={href}
@@ -14,8 +14,8 @@ export default function AppStoreButton({ href, large }: Props) {
       <Image
         src="/app-store-badge.svg"
         alt="Download on the App Store"
-        width={large ? 192 : 144}
-        height={large ? 64 : 48}
+        width={large ? 163 : 122}
+        height={large ? 54 : 41}
         className="h-full w-full object-contain"
         priority
       />

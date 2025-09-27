@@ -2,9 +2,9 @@ import Image from "next/image";
 type Size = "sm" | "md" | "lg";
 
 const widths: Record<Size, string> = {
-  sm: "w-[280px] sm:w-[300px]",
-  md: "w-[320px] sm:w-[360px]",
-  lg: "w-[360px] sm:w-[420px]"
+  sm: "w-[238px] sm:w-[255px]",
+  md: "w-[272px] sm:w-[306px]",
+  lg: "w-[306px] sm:w-[357px]"
 };
 
 export default function PhoneMockup({ src, alt, size = "md" }: { src: string; alt: string; size?: Size }) {
